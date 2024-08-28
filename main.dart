@@ -25,13 +25,13 @@ class MyApp extends StatelessWidget {
           title: Text(arrNames[index]),
           subtitle: Text(arrSeatNo[index]),
           trailing:Icon(Icons.account_balance),
-    );
+      );
     },
     itemCount: arrNames.length,
     separatorBuilder: (context,index){
           return Divider(height:100,thickness:5);
-        }
-          ),
+          }
+        ),
       ),
     );
   }
